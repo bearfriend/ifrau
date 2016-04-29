@@ -20,6 +20,7 @@ module.exports = function clientSyncFont(client) {
 			}
 		}
 		document.documentElement.style.fontSize = size;
+		document.body.style.fontFamily = font.family;
 		if (font.dyslexic) {
 			document.body.classList.add('vui-dyslexic');
 		}
